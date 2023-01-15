@@ -9,3 +9,7 @@ const checkEnding= string=>{
 
 console.log(checkEnd("javaScript"));
 console.log(checkEnding("jssripht"));
+
+
+
+module.exports={checkEnd,checkEnding};
