@@ -17,3 +17,6 @@ const incrementer= inputString=>{
 }
 console.log(incrementCharacter("codeacademy"));
 console.log(incrementer("lazyinterns"));
+
+
+module.exports={incrementCharacter,incrementer};
