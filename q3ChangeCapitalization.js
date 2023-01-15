@@ -14,3 +14,6 @@ const changes=(input)=>{
 }
 console.log(change("balKAR"));
 console.log(changes("SiNgH"))
+
+
+module.exports= {change,changes};
