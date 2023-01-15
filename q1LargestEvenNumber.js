@@ -19,3 +19,6 @@ const findLargestEvens= (inputArray)=>{
 
 console.log(findLargestEven([1,2,3,4,5]));
 console.log(findLargestEvens([1,2,3,4,5]));
+
+
+module.exports= {findLargestEven,findLargestEvens};
