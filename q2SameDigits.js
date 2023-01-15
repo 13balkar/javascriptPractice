@@ -28,3 +28,6 @@ const sameDigits=(input)=>{
 
 console.log(sameDigit(232));
 console.log(sameDigits(232));
+
+
+module.exports= {sameDigit,sameDigits};
