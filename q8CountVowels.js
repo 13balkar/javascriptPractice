@@ -45,3 +45,6 @@ function countVowel(string){
  }
 console.log(countVowel("codeacademy"));
 console.log(count("codeacademy"));
+
+
+module.exports={countVowel,count};
