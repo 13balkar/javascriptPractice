@@ -24,3 +24,6 @@ const longString=(input)=>{
 }
 console.log(longestString(["we", "love", "codesssss", "academy"]));
 console.log(longString(["we", "love", "codesssss", "academy"]));
+
+
+module.exports= {longString,longestString};
