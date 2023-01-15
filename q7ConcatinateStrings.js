@@ -7,3 +7,5 @@ const concatinater= input=>{
 }
 console.log(concatinate(["code", "academy"]));
 console.log(concatinater(["ncode", "nacademy"]));
+
+module.exports={concatinate,concatinater};
