@@ -6,3 +6,6 @@ function checkLeap(year){
  };
 console.log(checkLeap(2001));
 console.log(checkLeaps(2000));
+
+
+module.exports= {checkLeap,checkLeaps};
