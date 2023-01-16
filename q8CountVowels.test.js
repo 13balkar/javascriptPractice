@@ -1,4 +1,4 @@
-const {countVowel,count}=require('./q8CountVowels');
+const {countVowel,countVowels}=require('./q8CountVowels');
 
 test('Count the number of vowels in the string',()=>{
     expect(
@@ -24,21 +24,21 @@ test('Count the number of vowels in the string',()=>{
 // arrow
 test('Count the number of vowels in the string',()=>{
     expect(
-        count("Codeacademy")
+        countVowels("Codeacademy")
     ).toBe('Codeacademy consists of 5 characters')
 }) 
 test('Count the number of vowels in the string',()=>{
     expect(
-        count("Balkar")
+        countVowels("Balkar")
     ).toBe('Balkar consists of 2 characters')
 }) 
 test('Count the number of vowels in the string',()=>{
     expect(
-        count("Sidhu")
+        countVowels("Sidhu")
     ).toBe('Sidhu consists of 2 characters')
 }) 
 test('Count the number of vowels in the string',()=>{
     expect(
-        count("Random")
+        countVowels("Random")
     ).not.toBe('Random consists of 5 characters')
 }) 

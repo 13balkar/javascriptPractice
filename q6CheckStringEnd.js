@@ -1,15 +1,15 @@
-function checkEnd(string){
-    let length=string.length;
-    return length<6 ? (string+" does not end with Script") : (string.substring(length-6)==="Script" ? (string+" ends with Script"):(string+" does not end with Script"));
+function checkStringEnd(string){
+  let length=string.length;
+  return length<6 ? (string+" does not end with Script") : (string.substring(length-6)==="Script" ? (string+" ends with Script"):(string+" does not end with Script"));
 }
-const checkEnding= string=>{
-    let length=string.length;
-    return length<6 ? (string+" does not end with Script") : (string.substring(length-6)==="Script" ? (string+" ends with Script"):(string+" does not end with Script"));
+const checkStringEnding= string=>{
+  let length=string.length;
+  return length<6 ? (string+" does not end with Script") : (string.substring(length-6)==="Script" ? (string+" ends with Script"):(string+" does not end with Script"));
 }
 
-console.log(checkEnd("javaScript"));
-console.log(checkEnding("jssripht"));
+console.log(checkStringEnd("javaScript"));
+console.log(checkStringEnding("jssripht"));
 
 
 
-module.exports={checkEnd,checkEnding};
+module.exports={checkStringEnd,checkStringEnding};

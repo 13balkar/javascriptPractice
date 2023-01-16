@@ -1,26 +1,25 @@
-const {longString,longestString}=require('./q4LongestString');
+const {getLongestStrings,getLongestString}=require('./q4LongestString');
 
 test('Find the longest string from array of strings',()=>{
-    expect(
-        longestString(["we", "love", "code", "academy"])
+    expect(getLongestString(["we", "love", "code", "academy"])
     ).toBe('academy')
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longestString(["we", "love", "codesssss", "academy"])
+        getLongestString(["we", "love", "codesssss", "academy"])
     ).toBe('codesssss')
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longestString(["Balkar", "Singh"])
-    ).toBe('Balkar')
+        getLongestString(["Balkar", "Singh"])
+    ).toBe('Balkar');
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longestString(["we", "love", "codes", "academy"])
+        getLongestString(["we", "love", "codes", "academy"])
     ).not.toBe('codes')
 }) 
 
@@ -28,24 +27,24 @@ test('Find the longest string from array of strings',()=>{
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longString(["we", "love", "code", "academy"])
+        getLongestStrings(["we", "love", "code", "academy"])
     ).toBe('academy')
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longString(["we", "love", "codesssss", "academy"])
+        getLongestStrings(["we", "love", "codesssss", "academy"])
     ).toBe('codesssss')
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longString(["Balkar", "Singh"])
+        getLongestStrings(["Balkar", "Singh"])
     ).toBe('Balkar')
 }) 
 
 test('Find the longest string from array of strings',()=>{
     expect(
-        longString(["we", "love", "codes", "academy"])
+        getLongestStrings(["we", "love", "codes", "academy"])
     ).not.toBe('codes')
 }) 

@@ -1,51 +1,51 @@
-const {checkEnd,checkEnding}=require('./q6CheckStringEnd');
+const {checkStringEnd,checkStringEnding}=require('./q6CheckStringEnd');
 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnd("Welcome to Codeacademy")
+        checkStringEnd("Welcome to Codeacademy")
     ).toBe('Welcome to Codeacademy does not end with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnd("Welcome to Codeacademy Script")
+        checkStringEnd("Welcome to Codeacademy Script")
     ).toBe('Welcome to Codeacademy Script ends with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnd("Welcome to JavaScript")
+        checkStringEnd("Welcome to JavaScript")
     ).toBe('Welcome to JavaScript ends with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnd("Welcome")
+        checkStringEnd("Welcome")
     ).not.toBe('Welcome ends with Script')
 }) 
 
 // arrow
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnding("Welcome to Codeacademy")
+        checkStringEnding("Welcome to Codeacademy")
     ).toBe('Welcome to Codeacademy does not end with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnding("Welcome to Codeacademy Script")
+        checkStringEnding("Welcome to Codeacademy Script")
     ).toBe('Welcome to Codeacademy Script ends with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnding("Welcome to JavaScript")
+        checkStringEnding("Welcome to JavaScript")
     ).toBe('Welcome to JavaScript ends with Script')
 }) 
 
 test('Check if every string end with word `Script`',()=>{
     expect(
-        checkEnding("Welcome")
+        checkStringEnding("Welcome")
     ).not.toBe('Welcome ends with Script')
 }) 
